@@ -1,0 +1,139 @@
+nav ul {
+       display: flex;
+       justify-content: space-between;
+       margin: 4em;
+       list-style: none;
+       text-transform: uppercase;
+       background-color: burlywood;
+}
+nav ul li a{
+    text-decoration: none;
+
+}
+.main{ 
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.main .image img {
+    width: 20vw;
+
+}
+.main .text .desc{
+    padding-bottom:1em;
+    color: beige;
+    background-color: blue;
+    
+}
+body {
+    background-color: darkgrey;
+}
+.class .imag{
+    width: 20 vw;
+}
+
+h1 {color:black ;}
+
+.mian .image img {width: 40vw;}
+.mian .imag img {width: 40vw;}
+
+.mian .text .abt{ color: darkslateblue;
+    font-style: oblique;
+    font-variant: small-caps;}
+
+  .mian .text .para{
+    color: darkslateblue;
+    font-style: oblique;
+    font-variant: small-caps;}
+
+.body {background-color: darkseagreen;}
+
+.class{background-color: darkseagreen;}
+
+h {font-size: 40px;
+    font-variant: inherit;
+    color: black;
+    background-color: cadetblue;}
+
+.class .section{color: blue;
+font-variant: small-caps;
+}
+.section .parag .reff {
+    font-variant: small-caps;
+    font-style: italic;
+    color: brown;
+}
+.section ol { font-size: 60px;
+              color: darkred;
+              text-decoration: none;
+}
+.section ul {padding-left: 40em;}
+
+
+.achi .ref { color: brown;}
+.con .head { font-size: 30px;
+             color: black;
+             background-color: aquamarine;
+}
+
+.con { background-color: darkseagreen;}
+.con .yoh .paraa { font-variant: small-caps;
+                 color: brown;
+}
+.con .tru .aa em { font-size: 25px;
+                font-variant: small-caps;
+                color: blue;
+}
+.con .tru .bb em { font-size: 25px;
+    font-variant: small-caps;
+    color: blue;
+}
+.con .tru .cc em { font-size: 25px;
+    font-variant: small-caps;
+    color: blue;
+}
+.con .tru .dd em { font-size: 25px;
+    font-variant: small-caps;
+    color: blue;}
+    
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ img {
+        max-width: 100%;
+        height: auto;
+        vertical-align: middle;
+        display: inline-block;
+ }
+.port > div { display: flex
+              justify-content: center;
+              align-items: center;
+    }
+
+    .port > div > img{
+        width:100%;
+        height:100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .port {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-auto-rows: 200px;
+        grid-auto-flow: dense;
+
+    }
+    .port .wide{
+        grid-column: span 2;
+    }
+    .port .tall{
+        grid-row: span 2;
+    }
+    .port .big {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
